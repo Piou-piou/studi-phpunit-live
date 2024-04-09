@@ -12,7 +12,7 @@ class HelloService
             return $string.' !';
         }
 
-        return 'Hello '.$firstname.' '.$lastname.' !';
+        return $string.' '.$lastname.' !';
     }
 
     public function goodbye(string $firstname, ?string $lastname): string
