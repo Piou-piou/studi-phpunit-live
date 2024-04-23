@@ -5,7 +5,7 @@ namespace Tests;
 use App\Service\UserManager;
 use PHPUnit\Framework\TestCase;
 
-class UserTest extends TestCase
+class UserManagerTest extends TestCase
 {
     public function testGetByUsernameForIneexisting()
     {
